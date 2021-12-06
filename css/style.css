@@ -72,7 +72,7 @@ body {
     text-transform: uppercase;
     text-align: justify; }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 857px) {
   body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-top: 120px; }
@@ -330,7 +330,7 @@ a {
     margin: 0 0 1rem 0;
     list-style: none; }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 857px) {
   .contenedor_Contacto {
     background: #737678;
     color: #191915;
@@ -502,3 +502,31 @@ a {
       height: 80px;
       background-image: -webkit-linear-gradient(top, transparent 0%, #ffffff 100%);
       background-image: linear-gradient(to bottom, transparent 0%, #ffffff 100%); }
+
+/*carousel*/
+.cuerpo_carruselGuarderia .carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.carousel_Socios .carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.carousel_taller .carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
