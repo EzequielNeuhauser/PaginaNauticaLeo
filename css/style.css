@@ -213,7 +213,7 @@ a {
 .pie-pagina .registro .iconos_redes {
   text-align: center; }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 857px) {
   .pie-pagina__pie {
     max-width: 100%;
     grid-template-columns: repeat(1, 3fr);
